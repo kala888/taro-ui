@@ -118,7 +118,7 @@ export default class AtImagePicker extends AtComponent<AtImagePickerProps> {
                   <View className='at-image-picker__item'>
                     <View
                       className='at-image-picker__remove-btn'
-                      onClick={this.handleRemoveImg.bind(this, i * length! + j)}
+                      onClick={this.handleRemoveImg.bind(this, i * length! + j +1)}
                     ></View>
                     <Image
                       className='at-image-picker__preview-img'
